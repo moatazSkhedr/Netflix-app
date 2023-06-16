@@ -1,0 +1,64 @@
+.banner{
+   height:600px;
+   width: 100%;
+   position: relative;
+   color:white;
+   object-fit: contain;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+.bannerContain{
+    padding-top:150px;
+    padding-left:40px;
+}
+.bannerTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.bannerButtons{
+ margin:5px;
+}
+.movieDescription{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top:1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+}
+.bannerButton{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    /* padding: 8px 15px; */
+    margin: 10px;
+    background-color: rgba(51,51,51,0.8);
+    transition: all 0.3s ease;
+    color:white;
+    outline: none;
+    border-radius: 5px;
+    border:none;
+    padding-left:2rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+.bannerButton:hover{
+    color:black;
+    background-color: white;
+}
+
+.bannerFadeButton{
+    height: 16rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37 ,37 ,0.61),
+        #111
+    );
+}

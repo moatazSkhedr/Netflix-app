@@ -1,0 +1,39 @@
+
+.nav{
+    height: 70px;  
+    width:100%;
+    position: fixed;  
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index:1000;
+}
+.navBlack{
+    background-color: #111;
+
+
+}
+.navContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+}
+.navContent .logo{
+    width:150px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navContent .avatar img{
+    width:60px;
+    padding-right: 20px;
+    right: 20px;
+    position: fixed;
+    cursor: pointer;
+
+}
